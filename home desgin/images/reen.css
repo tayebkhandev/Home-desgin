@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.dib{
+    display: inline-block;
+}
+
+.topbar{
+    background-color: #f5f7fa;
+}
+
+.topbar .topbar-content{
+    width: 100%;
+    font-size: 0;
+    padding: 10px 0;
+}
+.topbar .topbar-content .contact,
+.topbar .topbar-content .social
+{
+    width: 50%;
+    font-size: initial;
+    display: inline-block;
+}
+
+.topbar .topbar-content .contact p{
+    display: inline-block;
+    width: fit-content;
+}
+.topbar .topbar-content .contact p img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.topbar .topbar-content .contact p:not(:last-child){
+    margin-right: 20px;
+}
+
+.topbar .topbar-content .social{
+    text-align: right;
+}
+
+.topbar .topbar-content .social img:not(:first-child){
+    margin-left: 10px;
+}
+.work{
+    background-color: #f2f5f7;
+}
+
+/* start header */
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+.header .logo{
+    width: 20%;
+    font-size: initial;
+    vertical-align: middle;
+}
+.header .logo img{
+    width: 60%;
+}
+.header .menu{
+    width: 65%;
+    font-size: initial;
+    vertical-align: middle;
+}
+.header .menu-search{
+    width: 15%;
+    font-size: initial;
+    text-align: right;
+    vertical-align: middle;
+}
+.header .menu ul li{
+    display: inline-block;
+}
+.header .menu ul li a{
+    text-decoration: none;
+    display: block;
+    color:#506a85;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 14px;
+}
+/* stop header */
+
+/* start banner */
+
+.banner{
+    background-image: url(background.png);
+    /* height: 80vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #dadee3;
+    text-align: center;
+}
+.banner .heading
+{
+    /* text-transform: uppercase; */
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    /* font-style: italic; */
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    width: 70%;
+    margin: auto;
+}
+.banner .heading h1
+{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.banner .heading  p
+{
+    color: #a3b1bf;
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+.btn
+{
+    color: white;
+    background-color: #00bc9c;
+    text-decoration:none;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
